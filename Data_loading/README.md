@@ -2,9 +2,11 @@
 Step 1 - Load The Original Dataset
 You have a set of data. The dataset includes tables store, product, inventory, sales and calendar. These are the tables from operational databases.
 
+![os_db_walmart](https://github.com/alator20/data_wharehousing/assets/14003325/a1d7536f-4fb6-4a4f-876d-8f4cf19ea3e8)
 
 You need to download the dataset from this link and load the data into a schema of the Snowflake data warehouse. (It is easier to load the csv files from DBeaver)
 
+![dbeaverimportdata](https://github.com/alator20/data_wharehousing/assets/14003325/dec97ff9-5eae-4888-a2fe-cce98061d48f)
 
 You can use this script to build the schema for the original system dataset tables.
 
@@ -24,6 +26,7 @@ in_of_stock_times: During one week, how many times when the in_of_stock_flg is T
 low_stock_times: During one week, how many times when the low_stock_flg is True.
 So to wrap up, the data model of the project has 3 dimension tables and 2 fact tables (one for daily, one for weekly). The data model can be found from here.
 
+![data_model_walmat](https://github.com/alator20/data_wharehousing/assets/14003325/08945496-1acf-47b5-8351-6963076ecd31)
 
 Step 3 - Create data model in Snowflake schema and Populate data in the data model for the first time.
 Create a schema on Snowflake.
